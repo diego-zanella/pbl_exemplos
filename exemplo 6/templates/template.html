@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu Restaurante</title>
+    </head>
+    <body>
+        <h2>Meu Restaurante</h2>
+        <h3>Acesse o menu:</h3>
+        <ul>
+            <li><a href="/register_order">Registrar Pedidos</a></li>
+            <li><a href="/pedidos">Listar Pedidos</a></li>
+            <li><a href="/clientes">Listar Clientes</a></li>
+            <li><a href="/funcionarios">Listar Funcionários</a></li>
+        </ul>
+        <div id="content">
+        {% block content %} {% endblock %}
+        </div>
+    </body>
+</html>
