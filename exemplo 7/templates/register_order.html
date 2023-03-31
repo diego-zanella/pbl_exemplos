@@ -1,0 +1,9 @@
+{% extends "template.html" %}
+{% block content %}
+    <form action = "/save_orders" method = "POST">
+        <p>Registrar Produto:</p>
+        <p><input type = "text" name = "name" placeholder="Nome"/></p>
+        <p><input type = "text" name = "ticket" placeholder="ID Comanda"/></p>
+        <p><input type = "submit" value = "Enviar" /></p>
+    </form>
+{% endblock %}

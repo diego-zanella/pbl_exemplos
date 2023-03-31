@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu Restaurante</title>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/style.css" />
+    </head>
+    <body>
+        <h2>Meu Restaurante</h2>
+        <h3>Acesse o menu:</h3>
+        <ul>
+            <li><a href="/register_order">Registrar Pedidos</a></li>
+            <li><a href="/pedidos">Listar Pedidos</a></li>
+            <li><a href="/clientes">Listar Clientes</a></li>
+            <li><a href="/funcionarios">Listar Funcionários</a></li>
+        </ul>
+        <div id="content">
+        {% block content %} {% endblock %}
+        </div>
+    </body>
+</html>
