@@ -1,0 +1,10 @@
+{% extends "template.html" %}
+{% block content %}
+        <h1>Funcionarios</h1>
+        <ul>
+            {% for order in funcionarios %}
+            <li>{{ order }}</li>
+            {% endfor %}   
+        </ul>
+        <p>Voltar para <a href="/">pagina inicial</a></p>
+        {% endblock %}
